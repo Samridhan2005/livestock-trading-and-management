@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Selling Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('pet.jpeg'); /* Replace 'background-image.jpg' with the path to your image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .contact-info {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .animated {
+            animation: fadeInUp 1s ease;
+        }
+
+        /* CSS animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container animated">
+        <h1> Selling Page</h1>
+        <p>Explore our amazing products and feel free to contact us for more information!</p>
+
+        <div class="contact-info">
+            <p>Phone: +1 123-456-7890</p>
+            <p>Email: info@example.com</p>
+        </div>
+    </div>
+
+</body>
+</html>
